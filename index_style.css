@@ -1,0 +1,194 @@
+#top_background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 500px;
+    text-align: center;
+}
+.title{
+    font-size: 55px;
+    margin-top: 284px;
+    color: black;
+}
+.slogan{
+    font-size: 25px;
+    color: black;
+}
+.learn_more{
+    background: none;
+    border: black solid 3px;
+    color: black;
+    width: 135px;
+    height: 55px;
+    background: rgba(166, 166, 166, .6);
+}
+.learn_more:hover{
+    background: rgba(166, 166, 166, .9);
+}
+#account_background{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+div.module.parallax {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 0px;
+    /* ie8- graceful degradation */
+    background-position:50% 0px\9!important;  
+}
+div.module.parallax2 {
+  height: 600px;
+  background-position: 50% -43%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div.module.parallax-1 {
+    background-image:url('bbalcourt.jpg');  
+}
+div.module.parallax-2 {
+  background-image: url("578894-hd-backgrounds.jpg");
+}
+.find{
+    background-color: #0D0E10;
+    position: relative;
+    margin-top: 50px;
+    height: 200px;
+}
+#map-canvas{
+    display: none;
+}
+.find_menu{
+    text-align: center;
+    margin-top: 40px;
+}
+.find_item{
+    width: 325px;
+    height: 45px;
+    margin-right: 15px;
+    background: none;
+    border: 3px solid rgba(0, 114, 143, .7);
+    color: white;
+}
+.find_button{
+    width: 200px;
+    height: 45px;
+    background: rgb(33, 34, 36);
+    border: 3px solid rgba(0, 114, 143, .7);
+    color: white;    
+    margin-bottom: 50px;
+}
+.find_button:hover{
+    background: rgb(55, 56, 58);
+}
+.review{
+    margin-top: 50px;
+}
+.review_title{
+    text-align: center;
+}
+.account{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer{
+    background-color: #0D0E10;
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+.foot_item{
+    margin-top: 40px;
+}
+
+h2{
+    color: rgba(0, 114, 143, .7);
+}
+.box{
+    background: rgba(184, 184, 184, 0.4);
+    border: 3px solid rgba(13, 14, 16, .7);
+    margin-top: 5px;
+    width: 325px;
+    height: 45px;
+    color: black;
+}
+.account_button{
+    color: white;
+    background: rgba(83, 83, 83, 0.4);
+}
+.account_button:hover{
+    color: white;
+    background: rgba(83, 83, 83, 0.6);
+}
+.logged_in_text{
+    margin-top: 91px;
+    color: black;
+}
+.sponsor{
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) { 
+    .find{
+        background-color: #0D0E10;
+        position: relative;
+        margin-top: 50px;
+        height: 300px;
+    }
+    .find_item{
+        width: 100%;
+        height: 45px;
+        margin-right: 15px;
+        background: none;
+        border: 3px solid rgba(0, 114, 143, .7);
+        color: white;
+        margin-top: 10px;
+    }
+    .find_button{
+        width: 100%;
+        height: 45px;
+        background: rgb(33, 34, 36);
+        border: 3px solid rgba(0, 114, 143, .7);
+        color: white;    
+        margin-top: 10px;
+    }      
+    #account_background{
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }     
+    .title{
+    font-size: 55px;
+    margin-top: 100px;
+    color: black;
+    } 
+    div.module.parallax2 {
+      height: 600px;
+      background-position: 50% -43%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    }    
+    .box{
+        background: rgba(184, 184, 184, 0.4);
+        border: 3px solid rgba(13, 14, 16, .7);
+        margin-top: 5px;
+        width: 100%;
+        height: 45px;
+        color: black;
+    } 
+    #map-canvas{
+        width: 90%;
+        margin: auto;
+    }    
+}
+
+@media (max-width: 800px) { 
+    #account_background{
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }   
+}
